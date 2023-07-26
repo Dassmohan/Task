@@ -1,7 +1,6 @@
-x = sorted(input("Enter the first string: ").lower())
-y= sorted(input("Enter the second string: ").lower())
-
-if len(x) == len(y):
+x = sorted(input("Enter the second string: ").replace(" ", "").lower())
+y = sorted(input("Enter the second string: ").replace(" ", "").lower())
+if x == y:
     print("The strings are anagrams.")
 else:
     print("The strings are not anagrams.")
