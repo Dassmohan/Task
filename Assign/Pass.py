@@ -1,4 +1,4 @@
-marks_input = input("Enter marks separated by commas: ")
+marks_input = input("Enter marks: ")
 marks_list = marks_input.split(',')
 result = []
 for mark in marks_list:
